@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Salt Marsh Birds.mp3-ad5fc1cdb238a520254928e3e0ac19c8.mp3str"
+
+[deps]
+
+source_file="res://audio/Salt Marsh Birds.mp3"
+dest_files=[ "res://.import/Salt Marsh Birds.mp3-ad5fc1cdb238a520254928e3e0ac19c8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

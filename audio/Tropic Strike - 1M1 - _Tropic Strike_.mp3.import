@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Tropic Strike - 1M1 - _Tropic Strike_.mp3-49d05f1a53d534585681c321c03aa935.mp3str"
+
+[deps]
+
+source_file="res://audio/Tropic Strike - 1M1 - _Tropic Strike_.mp3"
+dest_files=[ "res://.import/Tropic Strike - 1M1 - _Tropic Strike_.mp3-49d05f1a53d534585681c321c03aa935.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,11 +1,6 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://sprites/objects.png" type="Texture" id=1]
 [ext_resource path="res://menu/GameUI.gd" type="Script" id=2]
-
-[sub_resource type="AtlasTexture" id=1]
-atlas = ExtResource( 1 )
-region = Rect2( 2, 129, 11, 14 )
 
 [node name="GameUI" type="CanvasLayer"]
 script = ExtResource( 2 )
@@ -13,15 +8,13 @@ script = ExtResource( 2 )
 [node name="TopLeft" type="HBoxContainer" parent="."]
 anchor_left = 1.0
 anchor_right = 1.0
-margin_left = -40.0
-margin_bottom = 40.0
+margin_left = -48.0
+margin_bottom = 20.0
 alignment = 2
 
 [node name="InGameMenu" type="Button" parent="TopLeft"]
-margin_left = 17.0
-margin_right = 40.0
-margin_bottom = 40.0
-icon = SubResource( 1 )
-flat = true
+margin_right = 48.0
+margin_bottom = 20.0
+text = "Menu"
 
 [connection signal="pressed" from="TopLeft/InGameMenu" to="." method="pause_menu"]

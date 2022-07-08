@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Ireland&#039;s Coast (Video Game Soundtrack -Live).mp3-900262830822dd889fb4a647cb8a60f6.mp3str"
+
+[deps]
+
+source_file="res://audio/Ireland&#039;s Coast (Video Game Soundtrack -Live).mp3"
+dest_files=[ "res://.import/Ireland&#039;s Coast (Video Game Soundtrack -Live).mp3-900262830822dd889fb4a647cb8a60f6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
