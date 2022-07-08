@@ -1,6 +1,13 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=5 format=2]
 
+[ext_resource path="res://sprites/transparentDark/transparentDark31.png" type="Texture" id=1]
 [ext_resource path="res://menu/GameUI.gd" type="Script" id=2]
+
+[sub_resource type="InputEventAction" id=1]
+action = "pause"
+
+[sub_resource type="ShortCut" id=2]
+shortcut = SubResource( 1 )
 
 [node name="GameUI" type="CanvasLayer"]
 script = ExtResource( 2 )
@@ -8,13 +15,17 @@ script = ExtResource( 2 )
 [node name="TopLeft" type="HBoxContainer" parent="."]
 anchor_left = 1.0
 anchor_right = 1.0
-margin_left = -48.0
-margin_bottom = 20.0
+margin_left = -60.0
+margin_bottom = 54.0
 alignment = 2
 
 [node name="InGameMenu" type="Button" parent="TopLeft"]
-margin_right = 48.0
-margin_bottom = 20.0
-text = "Menu"
+margin_right = 60.0
+margin_bottom = 54.0
+hint_tooltip = "Menu"
+shortcut_in_tooltip = false
+shortcut = SubResource( 2 )
+icon = ExtResource( 1 )
+flat = true
 
 [connection signal="pressed" from="TopLeft/InGameMenu" to="." method="pause_menu"]
