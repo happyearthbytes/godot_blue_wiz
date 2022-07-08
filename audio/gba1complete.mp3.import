@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gba1complete.mp3-49dd6e52a0f8f70f183081172eecb91b.mp3str"
+
+[deps]
+
+source_file="res://audio/gba1complete.mp3"
+dest_files=[ "res://.import/gba1complete.mp3-49dd6e52a0f8f70f183081172eecb91b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
