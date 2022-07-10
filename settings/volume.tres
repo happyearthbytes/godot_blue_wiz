@@ -1,9 +1,11 @@
-[gd_resource type="Resource" load_steps=2 format=2]
+[gd_resource type="Resource" load_steps=3 format=2]
 
 [ext_resource path="res://Resource_Classes/Setting.gd" type="Script" id=1]
+[ext_resource path="res://sprites/transparentDark/transparentDark11.png" type="Texture" id=2]
 
 [resource]
 script = ExtResource( 1 )
-name = ""
+name = "volume"
 setting_type = 3
+sprite = ExtResource( 2 )
 value = 0.5

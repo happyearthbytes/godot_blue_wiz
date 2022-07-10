@@ -10,7 +10,7 @@ func _ready():
 	var filename = directory.get_next()
 	while(filename):
 		if not directory.current_is_dir():
-			settings.append(load("res//settings/%s" % filename))
+			settings.append(load("res://settings/%s" % filename))
 			
 		filename = directory.get_next()
 		

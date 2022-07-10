@@ -8,3 +8,8 @@ func _ready():
 
 func start_game():
 	emit_signal("start_game")
+
+func open_settings():
+	var settings = load("res://menu/SettingsMenu.tscn").instance()
+	add_child(settings)
+	

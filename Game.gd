@@ -12,7 +12,7 @@ func main_menu():
 	main_menu = main_menu_res.instance()
 	add_child(main_menu)
 	main_menu.connect("start_game", self, "start_game")
-
+	
 func start_game():
 	main_menu.queue_free()
 	in_game = in_game_res.instance()

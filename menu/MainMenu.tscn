@@ -88,3 +88,4 @@ icon = ExtResource( 6 )
 clip_text = true
 
 [connection signal="pressed" from="CenterContainer/VBoxContainer/HBoxContainer/Play" to="." method="start_game"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/HBoxContainer2/Settings" to="." method="open_settings"]
