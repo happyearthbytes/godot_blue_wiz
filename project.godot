@@ -8,11 +8,45 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "Inventory",
+"language": "GDScript",
+"path": "res://controller/Inventory.gd"
+}, {
+"base": "Resource",
+"class": "ItemResource",
+"language": "GDScript",
+"path": "res://Resource_Classes/Item.gd"
+}, {
+"base": "Resource",
+"class": "SettingResource",
+"language": "GDScript",
+"path": "res://Resource_Classes/Setting.gd"
+}, {
+"base": "Node",
+"class": "Settings",
+"language": "GDScript",
+"path": "res://controller/Settings.gd"
+} ]
+_global_script_class_icons={
+"Inventory": "",
+"ItemResource": "",
+"SettingResource": "",
+"Settings": ""
+}
+
 [application]
 
 config/name="BW2"
 run/main_scene="res://Game.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+SettingDatabase="*res://managers/SettingDatabase.gd"
+ItemDatabase="*res://managers/ItemDatabase.gd"
+GameManager="*res://managers/GameManager.gd"
 
 [display]
 

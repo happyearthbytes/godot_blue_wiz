@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resource_Classes/Item.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = "soul"
+item_type = 1
+rarity = 0.0
+biome = 0
+flavor_text = ""

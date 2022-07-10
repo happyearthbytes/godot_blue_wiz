@@ -7,12 +7,12 @@ extends Node2D
 var noise = null
 
 const Levels = {
-	"A": [-0.66, 0],
-	"B": [-0.33, 1],
-	"C": [0,2],
-	"D": [0.33,3],
-	"E": [0.66,4],
-	"F": [1,5]
+	0: [-0.66, 0],
+	1: [-0.33, 1],
+	2: [0,2],
+	3: [0.33,3],
+	4: [0.66,4],
+	5: [1,5]
 	}
 
 # Called when the node enters the scene tree for the first time.
@@ -22,7 +22,6 @@ func _ready():
 	noise.octaves = 4
 	noise.period = 20.0
 	noise.persistence = 0.8
-	noise.get_noise_2d(1.0, 1.0)
 	var xy = get_viewport_rect().size / $TileMap.cell_size
 	for x in range(xy.x):
 		for y in range(xy.y):
